@@ -1,11 +1,12 @@
 import { arrayToNestedObject } from "."
 
-test(`test case generator: []`, () => {
-    const arr = ["here", "you", "are"];
-    const output = {
-        here: {
-            you: "are"
-        }
+const arr = ["here", "you", "are"];
+const output = {
+    here: {
+        you: "are"
     }
+}
+test(`test case generator, parse ${JSON.stringify(arr)} to output: ${JSON.stringify(output)}`, () => {
+
     expect(arrayToNestedObject(arr)).toEqual(output)
 })
