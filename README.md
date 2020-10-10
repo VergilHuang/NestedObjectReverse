@@ -22,7 +22,7 @@ let outputValue = {
 
 
 ### Premise
-UnputValue always be a single-chain structure,
+InputValue always be a single-chain structure,
 and last property always string.
 
 ### `yarn start`
