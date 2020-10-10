@@ -30,8 +30,6 @@ and last property always string.
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-Here is a playground you can test function here.
-
 ### `yarn test`
 
-solution.test.ts combined three test cases.
+solution.test.ts combined three test cases, including a long chain test.
